@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Site 1</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+      body {
+        margin: 0px;
+      }
+      .nav {
+        background-color: #5f7161;
+        width: 100%;
+        height: 50px;
+        padding: 12px 5px;
+        box-sizing: border-box;
+      }
+      .nav-logo {
+        color: #fff;
+        text-decoration: none;
+        font-size: 20px;
+        padding-left: 5px;
+      }
+      .nav-links a {
+        color: #fff;
+        text-decoration: none;
+      }
+      .nav-links {
+        display: inline-block;
+        width: calc(100% - 125px);
+        text-align: right;
+      }
+      .nav-links a {
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+      .nav-links a:hover {
+        background-color: #fff;
+        color: #5f7161;
+      }
+      .button {
+        background-color: #6d8b74;
+        color: #5f7161;
+        border: 2px double white;
+        border-radius: 5px;
+      }
+
+      .main-img {
+        width: 100%;
+        height: 500px;
+        background-image: url(https://wallpapercave.com/wp/wp2066798.jpg);
+        background-position: center;
+        background-attachment: fixed;
+
+        color: #5f7161;
+        text-align: center;
+      }
+      h1 {
+        display: inline;
+        opacity: 0.9;
+      }
+
+      .main-bottom-header {
+        background-color: #5f7161;
+        color: #fff;
+        width: 100%;
+        height: 100px;
+        text-align: center;
+      }
+      .main-bottom-header p {
+        padding: 3px 250px;
+      }
+      .main-bottom-mid {
+        background-color: #fff;
+        color: #5f7161;
+      }
+
+      table td {
+        width: 33%;
+        height: 50px;
+        text-align: center;
+        padding: 5px 15px;
+
+        color: #5f7161;
+      }
+      .main-bottom-bottom {
+        width: 100%;
+        height: 200px;
+        background-color: #5f7161;
+        color: #fff;
+      }
+      .main-bottom-bottom table {
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+      }
+      .main-bottom-bottom img {
+        width: 300px;
+        height: 180px;
+
+        padding-left: 150px;
+      }
+      .main-bottom-bottom td {
+        padding-left: 0px;
+        color: #fff;
+        text-align: left;
+      }
+      .button {
+        color: white;
+      }
+      .button:hover {
+        border: 2px solid white;
+        color: #fff;
+        background-color: #5f7161;
+      }
+      
+      .footer-div {
+        width: 30%;
+        height: 100px;
+        text-align: center;
+        float: left;
+        margin-top: 20px;
+        margin-left: 25px;
+        margin-right: 25px;
+        color: #5f7161;
+        background-color: #fff;
+      }
+      .footer-mid {
+           width: 30%;
+        height: 100px;
+        text-align: center;
+        float: left;
+        margin-top: 20px;
+        margin-left: 25px;
+        margin-right: 25px;
+        background-color: #5f7161;
+        color: #fff;
+        border-radius: 10px;
+      }
+      .footer-mid-all {
+           background-color: #5f7161;
+        color: #fff;
+      }
+   
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <a href="" class="nav-logo">MovieApp</a>
+        <span class="nav-links">
+          <a href="">Movies</a>
+          <a href="">Series</a>
+          <a href="" class="button">Login</a>
+        </span>
+      </nav>
+    </header>
+    <main>
+      <section class="main">
+        <div class="main-img"></div>
+        <div class="main-bottom">
+          <table>
+            <div class="main-bottom-header">
+              <h1>How it work</h1>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro,
+                quam. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Dolorum, necessitatibus? Lorem ipsum, dolor sit amet consectetur
+                adipisicing elit. Quo, omnis.
+              </p>
+            </div>
+            <div class="main-bottom-mid">
+              <table>
+                <tr>
+                  <td>
+                    <h2>Register</h2>
+                    <p>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Non, commodi.
+                    </p>
+                  </td>
+
+                  <td>
+                    <h2>Choose a Plan</h2>
+                    <p>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Non, commodi.
+                    </p>
+                  </td>
+
+                  <td>
+                    <h2>Enjoy Movify</h2>
+                    <p>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Non, commodi.
+                    </p>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </table>
+          <div class="main-bottom-bottom">
+            <table>
+              <tr>
+                <td>
+                  <img
+                    src="https://wallpaperaccess.com/full/841364.jpg"
+                    alt=""
+                  />
+                </td>
+                <td>
+                  <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Nulla omnis iste sit quidem sequi! Odit, aspernatur, nam
+                    labore repellat veritatis inventore obcaecati optio error
+                    pariatur quod explicabo, quos dicta officia.
+                  </p>
+                  <input type="button" class="button" value="Wiew Features" />
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-div">
+        <h1>Free</h1>
+        <h3>0$/month</h3>
+        <ul>
+          <li>Aynı anda izleyebileceğiniz ekran sayısı: 1</li>
+          <li>İçerik indirebileceğiniz cihaz sayısı: 1</li>
+          <li>Sınırsız dizi ve film izleme hakkı</li>
+        </ul>
+        <input type="button" class="button" value="Kayıt" />
+      </div>
+      <div class="footer-mid">
+        <h1 class="footer-mid-all">Premium</h1>
+        <h3 class="footer-mid-all">19.99$/month</h3>
+        <ul class="footer-mid-all">
+          <li>Aynı anda izleyebileceğiniz ekran sayısı: 4</li>
+          <li>İçerik indirebileceğiniz cihaz sayısı: 4</li>
+          <li>Sınırsız dizi ve film izleme hakkı</li>
+        </ul>
+        <input type="button" class="footer-mid-all" value="Kayıt" />
+      </div>
+      <div class="footer-div">
+        <h1>Basic</h1>
+        <h3>9.99$/month</h3>
+        <ul cl>
+          <li>Aynı anda izleyebileceğiniz ekran sayısı: 2</li>
+          <li>İçerik indirebileceğiniz cihaz sayısı: 2</li>
+          <li>Sınırsız dizi ve film izleme hakkı</li>
+        </ul>
+        <input type="button" class="button" value="Kayıt" />
+      </div>
+     
+    </footer>
+  </body>
+</html>
